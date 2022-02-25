@@ -1,0 +1,100 @@
+<style>
+    article {
+        height: 300vh;
+        border: 30px dashed black;
+    }
+</style>
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>DevMedia - Lazy Loading - On Scroll</title>
+		<link real="stylesheet" type="text/css" href="css/site.css">
+		<script src="https://polyfill.io/v2/polyfill.min.js?features=IntersectionObserver"></script>
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
+		<!-- <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+		<script type="text/javascript" src="/jquery.lazy-master/jquery.lazy.min.js"></script> -->
+		<script type="text/javascript" src="js/script.js"></script>
+	</head>
+	<body>
+		<img class="lozad" data-src="img/Cartão-Nubank-PNG-Seja-Geek.png" src="" loading="lazy" alt="Imagem" />
+		<br>
+		<img class="lozad" data-src="img/Cartão-Nubank-PNG-Seja-Geek.png" src="" loading="lazy" alt="Imagem" />
+		<br>
+		<img class="lozad" data-src="img/Cartão-Nubank-PNG-Seja-Geek.png" src="" loading="lazy" alt="Imagem" />
+		<br>
+		<img class="lozad" data-src="img/Cartão-Nubank-PNG-Seja-Geek.png" src="" loading="lazy" alt="Imagem" />
+		<br>
+		<img class="lozad" data-src="img/Cartão-Nubank-PNG-Seja-Geek.png" src="" loading="lazy" alt="Imagem" />
+		<br>
+		<img class="lozad" data-src="img/Cartão-Nubank-PNG-Seja-Geek.png" src="" loading="lazy" alt="Imagem" />
+		<br>
+		<img class="lozad" data-src="img/Cartão-Nubank-PNG-Seja-Geek.png" src="" loading="lazy" alt="Imagem" />
+		<br>
+		<img class="lozad" data-src="img/Cartão-Nubank-PNG-Seja-Geek.png" src="" loading="lazy" alt="Imagem" />
+		<br>
+		<img class="lozad" data-src="img/Cartão-Nubank-PNG-Seja-Geek.png" src="" loading="lazy" alt="Imagem" />
+		<br>
+		<img class="lozad" data-src="img/Cartão-Nubank-PNG-Seja-Geek.png" src="" loading="lazy" alt="Imagem" />
+		<br>
+		<img class="lozad" data-src="img/Cartão-Nubank-PNG-Seja-Geek.png" src="" loading="lazy" alt="Imagem" />
+		<br>
+		<img class="lozad" data-src="img/Cartão-Nubank-PNG-Seja-Geek.png" src="" loading="lazy" alt="Imagem" />
+		<br>
+		<img class="lozad" data-src="img/Cartão-Nubank-PNG-Seja-Geek.png" src="" loading="lazy" alt="Imagem" />
+		<br>
+		<img class="lozad" data-src="img/Cartão-Nubank-PNG-Seja-Geek.png" src="" loading="lazy" alt="Imagem" />
+		<br>
+		<img class="lozad" data-src="img/Cartão-Nubank-PNG-Seja-Geek.png" src="" loading="lazy" alt="Imagem" />
+		<br>
+		<img class="lozad" data-src="img/Cartão-Nubank-PNG-Seja-Geek.png" src="" loading="lazy" alt="Imagem" />
+		<br>
+		<img class="lozad" data-src="img/Cartão-Nubank-PNG-Seja-Geek.png" src="" loading="lazy" alt="Imagem" />
+		<br>
+		<img class="lozad" data-src="img/Cartão-Nubank-PNG-Seja-Geek.png" src="" loading="lazy" alt="Imagem" />
+		<br>
+		<img class="lozad" data-src="img/Cartão-Nubank-PNG-Seja-Geek.png" loading="lazy" alt="Imagem" />
+		<br>
+		<img class="lozad" data-src="img/Cartão-Nubank-PNG-Seja-Geek.png" loading="lazy" alt="Imagem" />
+		<br>
+		<img class="lozad" data-src="img/Cartão-Nubank-PNG-Seja-Geek.png" loading="lazy" alt="Imagem" />
+		<br>
+		<img class="lozad" data-src="img/Cartão-Nubank-PNG-Seja-Geek.png" loading="lazy" alt="Imagem" />
+		<br>
+		<img class="lozad" data-src="img/Cartão-Nubank-PNG-Seja-Geek.png" loading="lazy" alt="Imagem" />
+		<br>
+		<img class="lozad" data-src="img/Cartão-Nubank-PNG-Seja-Geek.png" loading="lazy" alt="Imagem"/>
+		<br>
+		<img class="lozad" data-src="img/Cartão-Nubank-PNG-Seja-Geek.png" loading="lazy" alt="Imagem" />
+		<br>
+		<img class="lozad" data-src="img/Cartão-Nubank-PNG-Seja-Geek.png" loading="lazy" alt="Imagem" />
+		<br>
+		<img class="lozad" data-src="img/Cartão-Nubank-PNG-Seja-Geek.png" loading="lazy" alt="Imagem" />
+		<br>
+		<img class="lozad" data-src="img/Cartão-Nubank-PNG-Seja-Geek.png" loading="lazy" alt="Imagem" />
+		<br>
+		<img class="lozad" data-src="img/Cartão-Nubank-PNG-Seja-Geek.png" loading="lazy" alt="Imagem" />
+		<br>
+		<img class="lozad" data-src="img/Cartão-Nubank-PNG-Seja-Geek.png" loading="lazy" alt="Imagem" />
+		<br>
+		<img class="lozad" data-src="img/Cartão-Nubank-PNG-Seja-Geek.png" loading="lazy" alt="Imagem" />
+		<br>
+		<img class="lozad" data-src="img/Cartão-Nubank-PNG-Seja-Geek.png" loading="lazy" alt="Imagem"/>
+
+		<!-- <img class="lozad" src="img/Cartão-Nubank-PNG-Seja-Geek.png" />
+		<br>
+		<img class="lozad" src="img/Cartão-Nubank-PNG-Seja-Geek.png" />
+		<br>
+		<img class="lozad" src="img/Cartão-Nubank-PNG-Seja-Geek.png" />
+		<br>
+		<img class="lozad" src="img/Cartão-Nubank-PNG-Seja-Geek.png" />
+		<br>
+		<img class="lozad" src="img/Cartão-Nubank-PNG-Seja-Geek.png" />
+		<br>
+		<img class="lozad" src="img/Cartão-Nubank-PNG-Seja-Geek.png" />
+		<br>
+		<img class="lozad" src="img/Cartão-Nubank-PNG-Seja-Geek.png" />
+		<br>
+		<img class="lozad" src="img/Cartão-Nubank-PNG-Seja-Geek.png" /> -->
+	</body>
+</html>

@@ -1,0 +1,18 @@
+/* article{
+    height: 300vh;
+    border: 30px dashed black;
+} */
+
+.fadein {
+    animation-name: fadein;
+    animation-duration: 2s;
+       }
+
+   @keyframes fadein {
+       from {
+           opacity: 0;
+       }
+       to {
+           opacity: 1;
+       }
+   }
